@@ -11,6 +11,9 @@ align-items: center;
 .justify-center{
     justify-content: center;
 }
+.space-between{
+    justify-content: space-between;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -18,4 +21,10 @@ align-items: center;
 
 .semibold{
     font-weight: bolder;
+}
+
+.p{
+    margin-left: 12px;
+    margin-right: 12px;
+
 }
