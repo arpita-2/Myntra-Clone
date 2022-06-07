@@ -2,3 +2,12 @@
     display: flex;
 }
 
+/* items center and justify center used in util.css beacuse to use again n again*/
+
+.items-center{
+align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
