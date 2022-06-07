@@ -11,13 +11,17 @@
 <body>
     <header class="container">
         <nav class="flex">
+            <!--items-centre has been added with flex because what ever the image or text present in left class should be allign on same line with proper center-->
             <!---giving a flex box to nav bar because jo humne div class right and left select kiya he woh aas pass aajayenge-->
-            <div class="left flex">
+           
+            <div class="left flex items-center">
                 <!--left flex has given to go up-->
                 <!--image logo ka link h myntra ka to show it in first-->
                 <img src="https://brandlogos.net/wp-content/uploads/2022/03/myntra-logo-brandlogos.net_.png"/>
                 <!--unordered list k andr list create krna for navigation bar-->
-                <ul class="flex">
+                
+                <ul class="flex items-center justify-center">
+                    <!--item centre and justify-centre is added to allign all the items in centre-->
                     <!--unordered flex  has given to go up-->
                     <li>Home</li>
                     <li>Men</li>
@@ -27,7 +31,13 @@
                     <li>Beauty</li>
                     <li>Studio</li>
                 </ul>
-            </div>
+
+                <!--after styling and all in live server the logo is up and the list is litle bit below 
+                so now we have to allign that on a line , so now item centre will be going to add on nav bar and items
+            centre and justify centre will be  added in ul-->
+           
+        
+        </div>
             <div class="right flex">
 
             </div>
