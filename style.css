@@ -1,19 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&family=Varela+Round&display=swap');
+
 html, body{
     height: 100%;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+
+/* shadow is given on fully the header section*/
+/* position has been given sticky and top = 0 because nav bar should be seen after scrolling to down also*/
+
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
+    position:sticky;
+    top: 0;
+}
+
+.section1{
+    background-color: 	 #ffe6ff;
+    height: 122vh;
 }
 
 
 /* style giving to left image which is logo*/
 .left img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 /*giving styling to header not to nav bar because nav bar is undr the header so it will be easy if we style header so we dont have to type code again and again*/
 .container{
     max-width: 80vw;
     margin: auto;
+    padding: 0vw 10vw;
+    
 }
 
 /*nav ke under jo ul h jo uske andr li he usko style krna he taki woh perfectly alg alg dekhe without
