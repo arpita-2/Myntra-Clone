@@ -4,7 +4,9 @@ html, body{
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 
 /* shadow is given on fully the header section*/
@@ -12,9 +14,11 @@ font-family: 'Varela Round', sans-serif;
 
 
 header{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
+   
     position:sticky;
     top: 0;
+    background-color: white;
+    height: 66px;
 }
 
 .section1{
@@ -32,7 +36,7 @@ header{
 /*giving styling to header not to nav bar because nav bar is undr the header so it will be easy if we style header so we dont have to type code again and again*/
 .container{
     max-width: 80vw;
-    margin: auto;
+   
     padding: 0vw 10vw;
     
 }
@@ -42,9 +46,21 @@ any dots*/
 
 /* list style = none taki dots hat jaye*/
 
+nav {
+    font-size: 12px 0px;
+    padding-top: 14px;
+}
+
 nav ul li{
     list-style: none;
     padding: 0px 12px;
 
+}
 
+.search {
+    width: 24vw;
+    padding: 7px 17px;
+    border: o.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
 }
